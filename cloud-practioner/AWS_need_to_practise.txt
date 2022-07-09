@@ -1,0 +1,48 @@
+AWS things to practise:
+[Section 8: S3]
+- create s3 bucket
+- upload an object (image)
+- create folder
+- upload an object into this folder
+
+- change s3 bucket policies to public
+- make sure that the uploaded objects can be accessed publicly
+
+- host static website
+- test the generated static website
+
+- Upload the same file (and have versioning)
+- Delete the last file
+- Delete one file (introduce delete marker)
+- Rollback so we have back the deleted file
+
+- Create s3 bucket to be the target of server access logging
+- Enable server access logging on the source s3 bucket
+
+- Create s3 bucket as replication target
+- Enable replication on the main bucket
+- Check if the replication is correct
+
+- Upload an object with storage class x (you choose)
+- create lifecycle rule
+
+[Section 9: Database and Analytics]
+x create database
+x create snapshot
+x look around about what you can you can do with this snapshot
+
+x create dynamodb table
+x crud operations to dynamodb table
+x delete dynamodb table
+
+[Section 12: Global Infrastructure]
+- s3 with cloudfront
+
+[Section 13: Cloud Integrations]
+- create sqs
+- send and poll messages
+
+- create sns
+- create mailnator mailbox
+- create subscriber
+- send message
